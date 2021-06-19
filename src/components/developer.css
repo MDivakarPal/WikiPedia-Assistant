@@ -1,0 +1,33 @@
+.container-dev{
+    bottom: 0px;
+    right: 0px;
+    height: 630px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    background-color:#4a536b;
+    transition: height 2s , transform 2s;
+    box-shadow: 5px 10px 15px;
+}
+
+.dev-link{
+    height: 100px;
+    width: 100%;
+}
+.active{
+    display: block;
+}
+@media  only screen and (max-width:768px) {
+      .container-dev{
+          display: flex;
+          flex-direction:row;
+          bottom:0px;
+          left: 0px;
+          height: 50px;
+          justify-content: space-around;
+          width: 100%;
+          display: block;
+      }
+}
